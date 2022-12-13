@@ -23,7 +23,7 @@ def start(message):
     username = message.from_user.username
     id = message.from_user.id
     Num = len(db["users"]) + 1
-    Myid = 5507902534
+    Myid = "Your id"
     if Myid != id:
         if in_or_not(id) == False:
             db["users"][Num] = [fullname, username, id, Num, Myid]
